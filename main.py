@@ -10,6 +10,4 @@ def main():
         jugar_maquina()
     else:
         print("Opción no válida. Saliendo...")
-
-if __name__ == "__main__":
-    main()
+main()
