@@ -1,20 +1,15 @@
-from juego import jugar_maquina, jugar_usuario
-
+from juego import jugar_maquina
 
 def main():
-    print("Bienvenido al juego PIEDRA, PAPEL, TIJERA, LAGARTO, SPOCK")
-    print("¿Contra quién quieres jugar? 1: Máquina | 2: Otro usuario")
-    opcion = int(input("Introduce una opción 1 o 2: "))
+    print("\nBienvenido a " + "\033[93m" + "Piedra, Papel, Tijera, Lagarto, Spock" + "\033[0m")
+    print("¿Contra quién quieres jugar?")
+    print("1. Contra la máquina")
+
+    opcion = int(input("Introduce una opción (1): "))
     if opcion == 1:
         jugar_maquina()
-    elif opcion == 2:
-        jugar_usuario()
     else:
-        print("Opción no válida. Inténtalo de nuevo.")
-    
-    jugar_de_nuevo = input("¿Quieres volver a jugar? (s/n): ").lower()
-    if jugar_de_nuevo == "s":
-        main
+        print("Opción no válida. Saliendo...")
 
-
-main()
+if __name__ == "__main__":
+    main()
