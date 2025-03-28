@@ -16,7 +16,6 @@ def jugar_maquina():
             print(ROJO + "Opción no válida, intenta de nuevo." + RESET)
             continue
 
-        # Simulación de "pensar" antes de elegir la jugada
         pensar()
         maquina = random.choice(opciones_validas)
 
