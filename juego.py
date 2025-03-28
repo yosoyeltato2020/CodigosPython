@@ -43,12 +43,6 @@ def jugar_maquina():
     else:
         print(ROJO + f"\n¡La máquina ganó el mejor de {cantidad_partidas}. ¡Suerte la próxima vez!" + RESET)
 
-
-
-
-
-
-
     
 
 
