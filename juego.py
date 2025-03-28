@@ -1,7 +1,7 @@
 import random
 from utilidades import mostrar_dibujo, determinar_ganador, reglas, VERDE, ROJO, RESET, pensar
 
-cantidad_partidas = 3  # Número de rondas
+cantidad_partidas = 3  
 
 def jugar_maquina():
     puntuacion1 = 0
